@@ -5,6 +5,19 @@
   "author": "John Ozbay",
   "dependencies": {
     "actions-on-google": "^1.0.0",
-    "firebase-admin" : "*"
-  }
+    "firebase-admin": "*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnozbay/red-pebble.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnozbay/red-pebble/issues"
+  },
+  "homepage": "https://github.com/johnozbay/red-pebble#readme"
 }
