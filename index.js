@@ -31,7 +31,11 @@ var http = require('http');
 
 //////////////////////////////////////////////////////
 // INITIALIZE FIREBASE ADMIN WITH CREDENTIALS HERE. //
-firebase.initializeApp({ ... });
+var serviceAccount = require("./red-pebble-key.json");
+firebase.initializeApp({
+  credential: firebase.credential.cert(serviceAccount),
+  databaseURL: "https://red-pebble-eb1ec.firebaseio.com/"
+});
 //////////////////////////////////////////////////////
 
 
